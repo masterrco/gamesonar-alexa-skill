@@ -1,0 +1,126 @@
+{
+  "intents": [
+    {
+      "name": "AMAZON.CancelIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.HelpIntent",
+      "samples": [
+        "Help",
+        "Help please",
+        "Please help",
+        "I am lost"
+      ]
+    },
+    {
+      "name": "AMAZON.StopIntent",
+      "samples": [
+        "Stop",
+        "exit"
+      ]
+    },
+    {
+      "name": "csgoDateIntent",
+      "samples": [
+        "tell me about CSGO games {QueryDate}",
+        "tell me about counter strike games {QueryDate}",
+        "How many counter strike games {QueryDate}",
+        "How many counter strike go games {QueryDate}",
+        "tell me about CSGO {QueryDate}",
+        "tell me about counter strike {QueryDate}",
+        "tell me about counter strike global offensive {QueryDate}"
+      ],
+      "slots": [
+        {
+          "name": "QueryDate",
+          "type": "AMAZON.DATE",
+          "samples": []
+        }
+      ]
+    },
+    {
+      "name": "csgoIntent",
+      "samples": [
+        "tell me about CSGO games",
+        "tell me about counter strike games",
+        "How many counter strike games",
+        "How many counter strike go games",
+        "tell me about CSGO",
+        "tell me about counter strike",
+        "tell me about counter strike global offensive"
+      ],
+      "slots": []
+    },
+    {
+      "name": "dotaDateIntent",
+      "samples": [
+        "tell me about dota two games {QueryDate}",
+        "tell me about dota games {QueryDate}",
+        "How many dota two games {QueryDate}",
+        "How many dota games {QueryDate}",
+        "tell me about dota {QueryDate}",
+        "tell me about defense of the ancients games {QueryDate}"
+      ],
+      "slots": [
+        {
+          "name": "QueryDate",
+          "type": "AMAZON.DATE",
+          "samples": []
+        }
+      ]
+    },
+    {
+      "name": "dotaIntent",
+      "samples": [
+        "tell me about dota two games",
+        "tell me about dota games",
+        "How many dota two games",
+        "How many dota games",
+        "tell me about dota",
+        "tell me about dota two",
+        "tell me about defense of the ancients games"
+      ],
+      "slots": []
+    },
+    {
+      "name": "gameSonarWelcomeIntent",
+      "samples": [
+        "hello",
+        "whats up"
+      ],
+      "slots": []
+    },
+    {
+      "name": "lolDateIntent",
+      "samples": [
+        "tell me about league of legends games {QueryDate}",
+        "tell me about league {QueryDate}",
+        "How many league of legends games {QueryDate}",
+        "How many league games {QueryDate}",
+        "tell me about league of legends {QueryDate}",
+        "tell me about lol games {QueryDate}"
+      ],
+      "slots": [
+        {
+          "name": "QueryDate",
+          "type": "AMAZON.DATE",
+          "samples": []
+        }
+      ]
+    },
+    {
+      "name": "lolIntent",
+      "samples": [
+        "tell me about league of legends games",
+        "tell me about league games",
+        "How many league of legends games",
+        "How many league games",
+        "tell me about league of legends",
+        "tell me about League",
+        "tell me about lol games"
+      ],
+      "slots": []
+    }
+  ]
+} 
